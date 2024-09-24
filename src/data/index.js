@@ -1,5 +1,5 @@
 export const pageName = 'Intecosol';
-export const primaryColor = '#000000';
+export const primaryColor = '#EC8A79FF';
 export const backgroundColor = '#FFFFFF';
 export const makeClearBackground = (color) => {
   return {
@@ -9,12 +9,12 @@ export const makeClearBackground = (color) => {
 
 export const navData = [
   {
-    href: '/#courses',
-    label: 'Our Course',
-  },
-  {
     href: '/#our-services',
     label: 'Our Services',
+  },
+  {
+    href: '/#courses',
+    label: 'Our Course',
   },
   {
     href: '/#references',
